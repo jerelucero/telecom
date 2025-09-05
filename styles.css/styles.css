@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Combo&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Combo&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap");
+.sobrenosotros {
+  text-align: center;
+  font-family: "Combo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.parrafodesobrenosotros {
+  font-family: "Combo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.modoOscuro {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.973);
+}
+
+.salir a {
+  color: red;
+  text-decoration: none;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.aaaaa {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.imagenuno {
+  width: 150px;
+  height: 150px;
+}
+
+.form-control {
+  width: 200px;
+  height: 100px;
+}
+
+.contenedor {
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.aaa {
+  background-color: white;
+}
+
+#banner {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Updated carousel styles #carouselExampleFade {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  height: 550px;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 30%;
+  min-width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.buy-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.logo img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.search-input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 25px 0 0 25px; /* Bordes redondeados solo en la izquierda */
+  outline: none;
+  width: 300px;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #007bff; /* Color azul al enfocar el campo */
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Color de fondo azul */
+  color: white;
+  border: 2px solid #007bff;
+  border-radius: 0 25px 25px 0; /* Bordes redondeados solo en la derecha */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Efecto de crecimiento sutil */
+}
+div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+div ul li {
+  margin-left: 20px;
+}
+div ul li a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.about-us-container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #030303;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.sobrenosotros {
+  font-size: 2.8em;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.about-us-container h2 {
+  font-size: 1.6em;
+  font-weight: 600;
+  color: #007bff;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.about-us-container h2::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #007bff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.about-us-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #555;
+  text-align: justify;
+}
+
+.about-us-container hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    #ddd,
+    rgba(0, 0, 0, 0)
+  );
+  margin: 50px 0;
+}
+
+.blur-out-contract-bck {
+  -webkit-animation: blur-out-contract-bck 1s;
+  animation: blur-out-contract-bck 1s;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2025-9-5 11:8:45
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation blur-out-contract-bck
+ * ----------------------------------------
+ */
+@-webkit-keyframes blur-out-contract-bck {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-500px);
+    transform: translateZ(-500px);
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+@keyframes blur-out-contract-bck {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-500px);
+    transform: translateZ(-500px);
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
