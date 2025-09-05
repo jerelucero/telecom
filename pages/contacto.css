@@ -82,6 +82,8 @@
   font-family: inherit;
   color: white;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 20px;
   box-sizing: border-box;
@@ -170,4 +172,10 @@
 .form-container .form-submit-btn:hover {
   background-color: #fff;
   border-color: #fff;
+}
+.caivo {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
