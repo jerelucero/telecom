@@ -179,24 +179,3 @@
   justify-content: center;
   align-items: center;
 }
-.contenedor {
-  width: 90%;
-  margin: 0 auto; /* Centra el contenedor */
-}
-.columna {
-  width: 48%; /* Usa porcentajes */
-  float: left;
-  margin-right: 2%;
-}
-body {
-  font-size: 16px;
-  padding: 10px;
-}
-.grid {
-  display: flex;
-  flex-direction: column; /* Apila los elementos en móvil */
-}
-.item {
-  width: 100%;
-  margin-bottom: 10px;
-}
